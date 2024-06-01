@@ -1,0 +1,18 @@
+chelseylee@Chelseys-MacBook-Air Practice185 % sh 11status.sh 
+Sat Jun  1 08:14:47 PDT 2024
+user: chelseylee
+home: /Users/chelseylee
+shell: /bin/zsh
+pwd: /Users/chelseylee/Code/Practice185
+path: /usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin
+Darwin Chelseys-MacBook-Air.local 23.4.0 Darwin Kernel Version 23.4.0: Fri Mar 15 00:19:22 PDT 2024; root:xnu-10063.101.17~1/RELEASE_ARM64_T8112 arm64
+Python 3.9.6
+/Users/chelseylee/Code
+/Users/chelseylee/Code/MCB185
+/Users/chelseylee/Code/MCB185/ref
+/Users/chelseylee/Code/MCB185/course
+/Users/chelseylee/Code/MCB185/.git
+/Users/chelseylee/Code/MCB185/data
+/Users/chelseylee/Code/MCB185/src
+/Users/chelseylee/Code/Practice185
+/Users/chelseylee/Code/Practice185/.git
