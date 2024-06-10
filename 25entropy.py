@@ -1,4 +1,4 @@
-import math
+import math 
 
 # na, nc, ng, and nt are the numerical count
 def shannon(na, nc, ng, nt):
