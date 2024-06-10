@@ -31,3 +31,9 @@ for char in 'hello':
 seq = 'ACCTTGA'
 for nt in seq:
 	print(nt)
+	
+for nt1 in 'ACGT':
+	for nt2 in 'ACGT':
+		if nt1 == nt2: print (nt1, nt2, '+1')
+		else:		   print (nt1, nt2, '-1')
+	

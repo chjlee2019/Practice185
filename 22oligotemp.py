@@ -1,5 +1,4 @@
 # Oligo Temperature (Tm)
-# 
 
 def oligotemp(A, C, G, T):							#define function	
 	if A+C+G+T <= 13: return (A+T)*2 + (G+C)*4
