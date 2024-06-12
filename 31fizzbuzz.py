@@ -7,6 +7,7 @@ If the number is divisible by both 3 and 5, write FizzBuzz.
 
 RULE 1: Don't do what the problem says - always start with a subset of it.
 RULE 2: Order of precedence. 
+RULE 3: 
 
 """
 
