@@ -63,4 +63,16 @@ for i in range(limit):
 	for j in range(i+1, limit):
 		print(i+1, j+1)
 
+#Algorithms example
+def gc_comp(seq):
+	gc_count = 0
+	total = 0
+	for nt in seq:
+		if nt == 'C' or nt == 'G':
+			gc_count = gc_count + 1
+		total = total + 1
+	return gc_count / total
+
+print(gc_comp('ACAGCGAAT'))
+
 		
