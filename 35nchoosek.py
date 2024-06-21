@@ -17,11 +17,10 @@ def factorial(n):					#function
 		fac = fac * i
 	return fac
 
-
 def nchoosek(n,k):
 	return factorial(n) / (factorial(k) * factorial(n-k))
 	
-	
+
 for n in range(1, 11):
 	for k in range(1, n):
 		print(n, k, nchoosek(n,k))
