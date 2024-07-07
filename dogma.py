@@ -46,3 +46,6 @@ def translate(dna):
 			aas.append('X')
 		return ''.join(aas)
 
+def gc_comp(seq):
+	return (seq.count('C') + seq.count('G')) / len(seq)
+
