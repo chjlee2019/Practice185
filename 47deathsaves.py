@@ -13,6 +13,8 @@ If you are unlucky and roll a 1, it counts as 2 failures. If you're lucky and ro
 Write a program that simulates death saves. What is the probability one dies, stabilizes, or revives?
 
 """
+import random 
+
 def deathsave():
 	successes = 0
 	failures = 0
@@ -26,17 +28,20 @@ def deathsave():
 		if failures >= 3: return 'death'
 		if successes >= 3: return 'stable'
 
+trials = 10000
 deaths = 0
 revives = 0
 stables = 0
 for i in range(trials):
 	result = deathsave()
-	if result == 'death': deaths += 1
+	if result == 'death': deaths += 1                   # here, the events are not mutually exclusive (sum of probabilities ~100$)
 	elif result == 'stable': stables += 1
-	else: revive += 1
-print(revive / trials)
+	else: revives += 1
+print(revives / trials)
+print(stables / trials)
+print(deaths / trials)
 	
-""""
+"""
 #break down into simple parts - with a function, without a function?
 trials = 10000     # Trial: Did the character die or not? Every trial has three outcomes
 
