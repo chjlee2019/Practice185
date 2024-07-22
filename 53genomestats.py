@@ -90,13 +90,13 @@ print(mean(vals))
 def median(nums):
 	nums.sort()
 	print(nums)
-	n1 = len(nums)/2
-	n2 = (len(nums)/2)+ 1
+	ind1 = len(nums)//2
+	ind2 = ind1 - 1
 	if len(nums) % 2 ==1:
-		median = nums[len(nums)//2]      # odd
+		median = nums[ind1]      # odd
 	else:	
-		median = (n1 + n2)//2       
-		
+		median = nums[ind1] + nums[ind2]/2
+
 vals = [4, 3, 5, 2, 1]  		        # call function.
 vals = [4, 2, 5, 3]
 print(median(vals))  
